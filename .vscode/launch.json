@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug zona horaria",
+            "program": "${workspaceFolder:zona horaria}/.build/debug/zona horaria",
+            "args": [],
+            "cwd": "${workspaceFolder:zona horaria}",
+            "preLaunchTask": "swift: Build Debug zona horaria"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release zona horaria",
+            "program": "${workspaceFolder:zona horaria}/.build/release/zona horaria",
+            "args": [],
+            "cwd": "${workspaceFolder:zona horaria}",
+            "preLaunchTask": "swift: Build Release zona horaria"
+        }
+    ]
+}
